@@ -119,11 +119,11 @@
         <version.shrinkwrap.resolver>2.2.0-alpha-2</version.shrinkwrap.resolver>
         <version.shrinkwrap.descriptors>2.0.0-alpha-6</version.shrinkwrap.descriptors>
         <version.arquillian.glassfish40>1.0.0.CR4</version.arquillian.glassfish40>
-        <version.arquillian.tomcat>1.0.0.CR6</version.arquillian.tomcat>
+        <version.arquillian.tomcat>1.0.0.CR7</version.arquillian.tomcat>
         
         <!-- Container Versions -->
         <version.jboss-as7>7.1.1.Final</version.jboss-as7>
-        <version.tomee16>1.6.0</version.tomee16>
+        <version.tomee17>1.7.0</version.tomee17>
         <version.wildfly8>8.0.0.Final</version.wildfly8>
         
         <!-- Release repositories -->
@@ -322,7 +322,7 @@
             <dependency>
                 <groupId>org.apache.openejb</groupId>
                 <artifactId>arquillian-tomee-remote</artifactId>
-                <version>${version.tomee16}</version>
+                <version>${version.tomee17}</version>
             </dependency>
             <dependency>
                 <groupId>org.jboss.arquillian.container</groupId>
